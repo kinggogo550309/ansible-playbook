@@ -1,7 +1,6 @@
 ---
 - hosts: all
   become: true
-  become_user: ops-admin
   gather_facts: no 
   tasks:
     - name: install the latest version of httpd
